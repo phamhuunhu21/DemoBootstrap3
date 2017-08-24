@@ -1,0 +1,210 @@
+*{margin:0 ;padding:0;}
+h1,h2,h3,h4,h5,h6,ul,li,p{margin: 0;padding:0px;}
+li{list-style: none;float:left;}
+a{text-decoration: none;}
+.row{
+  margin:0px;
+  padding:0px;
+}
+@font-face{
+  font-family:Lato-Bold;
+  src:url('../fonts/Lato-Bold.ttf') format('truetype');
+  }
+@font-face{
+  font-family:Lato-Light;
+  src:url('../fonts/Lato-Light.ttf') format('truetype');
+  }
+@font-face{
+  font-family:Lato-Regular;
+  src:url('../fonts/Lato-Regular.ttf') format('truetype');
+  }
+@font-face{
+  font-family:Lato-Italic;
+  src:url('../fonts/Lato-Italic.ttf') format('truetype');
+  }
+.bold{font-family: Lato-Bold;}
+.light{font-family: Lato-Light;}
+.regular{font-family: Lato-Regular;}
+.italic{font-family: Lato-Italic;}
+.white{color:white;}
+body{background:#87A586;}
+/*Bắt đầu CSS cho phần header-menu */
+.container-max{
+  max-width: 1020px;
+  margin-top:20px;
+  padding:0px;
+}
+.header-top{
+  background: #fff;
+}
+.collapse-li{
+  border: none;
+}
+.logo{
+  padding:15px 0px 15px 30px;
+}
+.header-menu{
+  padding:28px 0px;
+  text-align:center;
+  background: none;
+  border: none;
+  margin: 0px;
+}
+.header-menu a{
+  padding:15px;
+  color:#000;
+}
+.header-menu a:hover{
+  background:#1bbc9b;
+  text-decoration: none;
+  color:#fff;
+}
+/*Kết thúc CSS cho phần header-menu */
+
+/*Bắt đầu CSS cho phần header-title */
+.header-title{
+  background: url(../img/headerbg.jpg);
+  text-align: center;
+}
+.title{
+  padding:80px 0px;
+  width: 100%;
+}
+.title span{
+  font-size:55px;
+  padding:20px 0px;
+}
+.title p{
+  font-size: 18px;
+  padding: 19px 0px;
+}
+.button{
+  background: #1bbc9b;
+}
+.button:hover{
+  color: black;
+  cursor: pointer;
+}
+/*Kết thúc CSS cho phần header-title */
+
+/*Begin CSS of Porfolio*/
+.portfolio{
+  background-color: #ffffff;
+  text-align: center;
+  padding: 50px 0px;
+}
+.portfolio-text{
+  padding-bottom: 30px;
+  width: 100%;
+}
+.portfolio-text h2, .portfolio-text p{
+  width: 100%;
+  padding-bottom: 10px;
+}
+.list-button-portfolio{
+  text-align: center;
+  width: 100%;
+  margin:0 20%;
+  padding-bottom: 25px;
+}
+.button-portfolio{
+  padding:5px 0px;
+}
+.portfolio-list-icon{
+  width: 100%;\
+}
+.icon-portfolio{
+  padding:15px 0px;
+}
+
+#about-us{
+  background: #16a086;
+  text-align: center;
+  padding:50px 10%;
+}
+.about-title{
+  padding-bottom: 45px;
+}
+.about-title h2, .about-title p{
+  width: 100%;
+}
+.about-title p{
+  margin-top: 10px;
+}
+.about-info{
+  padding: 10px 0px;
+}
+.about-text{
+  background: #ffffff;
+  width: 220px;
+  margin:0 auto;
+  padding:10px 5px;
+}
+.about-text p{
+  font-size: 13px;
+}
+.about-text p.text-left{
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+/*Begin CSS of fotter*/
+#contact{
+  background: #ecf0f1;
+  text-align: center;
+  padding: 50px 50px;
+}
+
+.contact-title h2, .contact-title p{
+  width: 100%;
+  padding-bottom: 15px;
+}
+.form-left{
+  padding: 40px 20px;
+}
+.form-left input{
+  float: left;
+  width: 48%;
+  margin-bottom: 20px;
+  border: solid 2px #bec3c7;
+}
+.form-left textarea{
+  border: solid 2px #bec3c7;
+  margin-bottom: 20px;
+}
+.form-email{
+  margin-left: 4%
+}
+.form-left button{
+  float: right;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.form-right{
+  padding: 40px 20px;
+}
+.form-right {
+  text-align: left;
+}
+.head-info{
+  margin-top: -1%;
+}
+#footer{
+  background:#2d3e50;
+  padding-bottom: 70px;
+}
+.footer-left{
+  color: #f2f3f4;
+  padding: 30px 30px;
+}
+.footer-right a{
+  background: #1bbc9b;
+  color: #fff;
+  float: right;
+  padding: 15px;
+  text-decoration: none;
+  margin-top: 15px;
+}
+.footer-right a:hover{
+  color: #000;
+}
